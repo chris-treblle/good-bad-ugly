@@ -2,7 +2,7 @@
   "name": "good-bad-ugly-apis",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /live --download",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -13,6 +13,7 @@
     "slidev-theme-purplin": "^1.2.0"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.33"
+    "@iconify-json/logos": "^1.1.33",
+    "playwright-chromium": "^1.38.1"
   }
 }
